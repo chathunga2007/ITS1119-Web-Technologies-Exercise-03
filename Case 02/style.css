@@ -59,7 +59,7 @@ body {
     left: 0;
     top: 0;
     bottom: 0; /* To make room for footer */
-    width: 25%;
+    width: 20%;
     background-color: #4b0082;
     padding-top: 40px;
 }
@@ -76,8 +76,8 @@ body {
 }
 
 .content {
-    margin-left: 25%;  
-    width: 75%;     
+    margin-left: 20%;  
+    width: 80%;     
     padding: 20px;
 }
 

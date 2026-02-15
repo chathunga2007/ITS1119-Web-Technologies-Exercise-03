@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.box {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.red {
+    background: red;
+    top: 0;
+    left: 0;
+}
+
+.green {
+    background: green;
+    top: 0;
+    right: 0;
+}
+
+.orange {
+    background: orange;
+    bottom: 0;
+    left: 0;
+}
+
+.pink {
+    background: rgb(249, 92, 144);
+    bottom: 0;
+    right: 0;
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-box {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-half-circle-up {
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    background-color: white;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.center-half-circle-down {
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    background-color: white;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.left-half-circle-up {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-bottom-right-radius: 150px;
+    top: 0;
+    left: 0;
+}
+
+.right-half-circle-up {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-bottom-left-radius: 150px;
+    top: 0;
+    right: 0;
+}
+
+.left-half-circle-down {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-top-right-radius: 150px;
+    bottom: 0;
+    left: 0;
+}
+
+.right-half-circle-down {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-top-left-radius: 150px;
+    bottom: 0;
+    right: 0;
+}

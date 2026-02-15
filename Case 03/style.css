@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body {
     transform: translate(-50%, -50%);
     width: 200px;
     height: 200px;
-    background-color: #fff;
+    background-color: white;
     border: 15px solid gray;
     border-radius: 50%;
 }
@@ -40,7 +40,7 @@ body {
     position: relative;
     width: 100%;
     height: 250vh;
-    background-color: #fff;
+    background-color: white;
 }
 
 .circle {
@@ -82,6 +82,6 @@ body {
     transform: translate(-50%, -50%);
     font-size: 20px;
     font-weight: bold;
-    color: #fff;
+    color: white;
     text-align: center;
 }

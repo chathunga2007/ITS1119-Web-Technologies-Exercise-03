@@ -50,6 +50,16 @@ body {
     border-radius: 50%;
 }
 
+.label {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
 
 .one {
     position: absolute;
@@ -73,15 +83,4 @@ body {
     left: 50vw;
     transform: translate(-50%,50%);
     background-color: rgb(235, 64, 116);
-}
-
-.label {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
 }

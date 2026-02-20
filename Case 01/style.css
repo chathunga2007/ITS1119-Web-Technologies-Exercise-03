@@ -28,16 +28,17 @@ html, .container {
     right: 0;
 }
 
-.orange {
-    background: orange;
-    bottom: 0;
-    left: 0;
-}
 
 .pink {
     background: pink;
     bottom: 0;
     right: 0;
+}
+
+.orange {
+    background: orange;
+    bottom: 0;
+    left: 0;
 }
 
 .box::before {
